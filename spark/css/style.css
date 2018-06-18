@@ -1,0 +1,650 @@
+/* main rules */
+.container {
+    width: 1148px;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+    clear: both;
+}
+.active{
+    color: #390da8;
+    
+}
+.active2{
+    background: #390da8;
+}
+/* start small header */
+#up-header {
+    color: #767676;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ffffff
+}
+#up-header .contact {
+    max-width: 50%;
+    display: inline-block;
+}
+#up-header .contact span:first-child {
+    padding-right: 6px;
+    
+}
+#up-header .contact span ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+#up-header .contact span ul li {
+    padding: 5px;
+}
+#up-header .contact span ul li i:hover {
+    opacity: .5;
+
+}
+#up-header .contact h1 {
+    color: #390da7;
+    font-weight: 10px;
+    letter-spacing: 7px;
+    line-height: 1.5;
+    font-size: 30px;
+    text-transform: capitalize;
+    
+}
+#up-header .contact h1::first-letter{
+    border: 2px dotted #390da7;
+    border-radius: 0 40% 0 40%;
+    padding: 2px;
+    text-align: center;
+    padding-left: 10px;
+    margin-right: 5px;
+    line-height: 1.5;
+}
+#up-header .reg {
+    display: inline;
+    overflow: hidden;
+
+  
+
+    
+}
+#up-header .reg span {
+    float: right;
+    padding-top: 10px;
+    cursor: pointer;
+    
+}
+#up-header .reg span i:hover {
+    cursor: pointer;
+    opacity: .5;
+
+}
+nav {
+   display: ;
+   
+   
+}
+nav  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    
+   
+    
+    
+}
+nav ul li {
+    
+    padding: 20px;
+    float: left;
+   
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    color: #b4b4c8;
+    font-weight: bolder;
+    display: block;
+
+}
+nav ul li a:hover{
+    color: #390da8;
+    font-size:100%
+}
+nav ul li a:active{
+    color: #390da8;
+}
+/* end up header */
+/* start main header */
+#main-head {
+    background: #390da8;
+    margin-top: 70px;
+   
+  
+   
+}
+#main-head .inner-1 {
+    line-height: 1.1;
+    width: 50%;
+    
+    
+ 
+
+}
+#main-head .inner-1 h1 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 400%;
+    text-transform: uppercase;
+    
+}
+#main-head .inner-1 p {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 300%;
+    text-transform: uppercase;
+   
+}
+#main-head .inner-1 p span {
+    font-weight: 700;
+    font-size: 130%;
+    text-transform: uppercase;
+    
+}
+#main-head .inner-1 p:last-of-type{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+#main-head .inner-1 button {
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background: none;
+    border: 0;
+    text-transform: uppercase;
+    margin-right: 20px;
+    background-color: #681c98;
+}
+#main-head .inner-1 button:last-of-type{
+    background: none;
+    background-color: #0d0c0e;
+
+}
+
+
+#main-head  img {
+    width: 300px;
+    border: 1px solid;
+    margin-left: 700px;
+    margin-bottom: 500px;
+    display: inline-block;
+    position: absolute;
+    right: 50;
+    top: 230px;
+    border-radius: 50% 50% 0 50%
+}
+/* end main header */
+/* start-content */
+#design .info {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 220%;
+    color: #390da8;
+    margin-top: 200px;
+}
+#design .info p{
+    color: #6c6c6c;
+    font-size: 29px;
+    line-height: 1.5;
+}
+hr{
+    width: 30%;
+    text-align: center;
+}
+#about-using .inner-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#about-using .inner-content div{
+    flex-basis: 30.333333%;
+    padding: 20px;
+    text-align: center;
+    color: #390da8;
+}
+#about-using .inner-content div i {
+    color: #390da8;
+    font-size: 25px;
+}
+
+#about-using .inner-content div p{
+    color: #6c6c6c;
+}
+#about-using .inner-content div:hover{
+    background: #390da8;
+    color: #ffffff;
+}
+#about-using .inner-content div:hover i {
+    color: #ffffff;
+}
+#about-using .inner-content div:hover p{
+    color: #ffffff;
+}
+/* end content */
+/* start my-project */
+#my-projec {
+    overflow: hidden;
+}
+#my-project h2 {
+    padding-top: 250px;
+    float: left;
+    color: #390da8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    width: 100%;
+}
+#my-project .pro-img {
+    width: 20%;
+    float: left;
+    height: 250px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 5%;
+    
+}
+
+#my-project .pro-img img {
+    width: 100%;
+    height: 100%;
+}
+#my-project .pro-img h3 {
+    color: #212121;
+    font-weight: bold;
+    font-size: 20px;
+}
+#my-project .pro-img span {
+    color: #212121;
+    font-size: 14px;
+    padding-bottom: 300px;
+    text-align: justify;
+   
+}
+.btn {
+    position: relative;
+}
+.btn a {
+    float: left;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #390da8;
+    color: #ffffff;
+    border-radius: 20px; 
+    cursor: pointer;
+    text-align: center;
+}
+/* end my-project */
+/* start summoned */
+#summon {
+    margin-top: 300px;
+    overflow: hidden;
+   
+}
+#summon .summon-inner {
+    width: 50%;
+    float: left;
+}
+#summon .summon-inner h3 {
+    color:#373737;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#summon .summon-inner h1 {
+    color: #390da8;
+    font-size: 400%;
+    font-weight:bolder;
+    padding-top: 0;
+    margin-top: 0;
+}
+#summon .summon-inner p {
+    color:#373737;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5
+
+}
+#summon .summon-inner button {
+    padding: 15px;
+    text-align: center;
+    border: 3px solid #373737;
+    border-radius: 30px;
+    background: none;
+    color: #373737;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: 30px;
+    width: 200px;
+    transition: background-color .4s ease-in-out;
+}
+#summon .summon-inner button:hover{
+    background-color: #390da7;
+
+}
+#summon .s-img {
+    width: 50%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#summon .s-img .ps-img {
+    border: 2px solid #390da7;
+    width: 300px;
+    height: 300px;
+    float: right; 
+    margin-top: 10%
+
+
+    
+}
+#summon .s-img .ps-img img {
+    width: 100%;
+    float: right;
+    height: 100%;
+}
+/* end summoned */
+/* start number */
+#number {
+    background-image: url(../img/pexels-photo-962095.jpeg);
+    min-width: 1000px;
+    min-height: 500px ;
+    background-size: cover;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+#number .number-inner{
+    text-align: center;
+    
+
+}
+#number .number-inner h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 300%;
+    text-align: center;
+    width: 300px;
+    height: 50px;   
+}
+#number .number-inner p {
+    color: white;
+    font-weight: 300;
+    font-size: 300%;
+    text-align: center;
+    padding-left: 100px;
+}
+#number .number-inner p:last-child {
+    padding-right: 100px;
+
+}
+/* end numbers */
+/* start testemonials */
+#testemonials {
+    margin-top: 200px;
+    
+}
+#testemonials .testi {
+    text-align: center;
+    height: 200px;
+}
+#testemonials .testi h3 {
+    color: #390da7;
+    font-weight: 700;
+    font-size: 300%;
+    text-transform: uppercase;
+    
+}
+#testemonials .testi p {
+    color: #212121;
+    font-size: 17px;
+    font-style: oblique;
+    padding-bottom: 500px;
+}
+#testemonials .testi-img {
+    text-align: center;
+    width: 33.33333%;
+    height: 300px;
+    float: left;
+    margin-bottom: 300px;
+}
+#testemonials .testi-img:hover{
+    background: #390da8;
+}
+
+
+#testemonials .testi-img p{
+    color: #797979;
+    font-size: 200%;
+    font-weight: 900;
+}
+#testemonials .testi-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#testemonials .testi-img p:nth-of-type(2){
+    color: #6e6e6e;
+    font-size: 17px;
+    line-height: 2;
+}
+#testemonials .testi-img p:last-of-type{
+    color: #6e6e6e;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0;
+    padding-top: 80px;
+
+}
+#testemonials .testi-img span {
+    color: #6e6e6e;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-top: 0
+
+}
+#testemonials .sec{
+    text-align: center;
+    
+}
+#testemonials .sec span{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 3px;
+    display: inline-block;
+    margin-top: 0;
+}
+#testemonials .sec span:hover {
+    background-color: #390da8;
+}
+
+/* end testemonials */
+/*start some */
+#some {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #390da8;
+    height: 170px;
+    background-image: url('../img/pexels-photo-962095.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#some span{
+    border: 2px dotted #ffffff;
+    border-radius: 0 40% 0 40%;
+    padding: 7px;
+    text-align: center;
+    padding-left: 10px;
+    margin-right: 5px;
+    line-height: 1.5;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+#some p {
+    display: inline;
+    letter-spacing: 1px;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: bold;
+}
+#some a {
+    background: #212121;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+/*end some*/
+/*start main footer*/
+#main-footer .footer {
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#main-footer .footer .first-forth {
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#main-footer .footer .first-forth h3 {
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px dotted;
+    border-radius: 0 40% 0 40%;
+    display: inline-block;
+    width: 50px;
+    margin-left: 200px;
+}
+#main-footer .footer .first-forth p{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+#main-footer .footer .first-forth ul{
+    list-style: none;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+#main-footer .footer .first-forth ul li{
+    float: left;
+    padding: 5px;
+
+}
+#main-footer .footer .first-forth ul li i{
+    font-size: 30px;
+}
+#main-footer .footer .second-forth {
+    text-transform: capitalize;
+    height: 300px;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#main-footer .footer .second-forth ul {
+    list-style: none;
+    
+
+}
+#main-footer .footer .second-forth ul strong {
+    font-size: 17px;
+    font-style:normal;
+    font-weight: bold;   
+}
+#main-footer .footer .second-forth ul li {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500 ;
+    cursor: pointer;
+}
+#main-footer .footer .forth {
+    width: 25%;
+    height: 300px;
+    text-transform: capitalize; 
+    margin-top: 40px;
+}
+#main-footer .footer .forth strong {
+    font-size: 17px;
+    font-style:normal;
+    font-weight: bold; 
+}
+#main-footer .footer .forth p{
+    font-size: 16px;
+    font-style:normal;
+    font-weight: bold;
+}
+#main-footer .footer .forth input{
+    padding: 10px;
+    border: 1px solid;
+    font-weight: bold;
+}
+#main-footer .footer .forth button{
+    padding: 10px;
+    width: 70px;
+    background: #212121;
+    text-align: center;
+    cursor: pointer;
+}
+#main-footer .footer .forth button i{
+    color: #ffffff;
+    font-size: 16px;
+
+}
+/*end main footer*/
+/*start footer */
+#footer {
+    text-transform: capitalize;
+    text-align: center;
+    padding: 30px;
+    background: #330099;
+    color: #ffffff;
+}
+#footer span {
+    font-size: 25px;
+    font-weight: bold;
+}
+#footer span i{
+    color: #e680b2;
+}
+/* the end*/
+
+
+
+
+
+
+
